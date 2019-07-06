@@ -1,0 +1,13 @@
+<h1>{{ vm.title }}</h1>
+<!-- <ul>
+  <li ng-repeat="hotel in vm.hotels"><a ng-href="#!/hotel/{{ hotel._id }}">{{ hotel.name }}</a></li>
+</ul> -->
+
+<div ng-repeat="hotel in vm.hotels">
+    <i class="fa fa-flag"></i>&nbsp;&nbsp;
+    <a ng-href="#!/hotel/{{ hotel._id }}">
+      <!-- <img src="" alt="asdasdad" class="img-thumbnail"> -->
+      
+      {{ hotel.name }}
+    </a>
+</div>

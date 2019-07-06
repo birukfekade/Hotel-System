@@ -1,0 +1,27 @@
+{
+  "name": "hotel",
+  "version": "1.0.0",
+  "description": "hotel advertisement website",
+  "main": "index.js",
+  "scripts": {
+    "start": "node app.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "biruk fekade",
+  "license": "ISC",
+  "dependencies": {
+    "@uirouter/angularjs": "^1.0.20",
+    "angular": "^1.7.5",
+    "angular-jwt": "^0.1.10",
+    "angular-route": "^1.7.5",
+    "bcrypt-nodejs": "0.0.3",
+    "body-parser": "^1.18.3",
+    "express": "^4.16.4",
+    "jsonwebtoken": "^8.3.0",
+    "mocha": "^5.2.0",
+    "mongodb": "^2.2.33",
+    "mongoose": "^5.3.6"
+  },
+  "devDependencies": {},
+  "keywords": []
+}
